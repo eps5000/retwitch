@@ -1,0 +1,23 @@
+# Byte-compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Environment files
+.env
+*.env
+
+# IDE or editor-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and debugging output
+*.log
+
+# Virtual environments
+.venv/
+env/
