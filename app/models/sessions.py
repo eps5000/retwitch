@@ -18,7 +18,7 @@ def create_or_update_session(token: str, username: str = None):
         session_store[token] = {
             "username": username,
             "created_at": now,
-            "expires_at": now + timedelta(minutes=15),
+            "expires_at": now + timedelta(minutes=15)
         }
     return token, session_store[token]["expires_at"]
 
